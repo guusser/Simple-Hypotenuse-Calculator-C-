@@ -19,7 +19,11 @@ int main()
 
     double x = round(c);
     cout << "Hypotenuse = " << c << endl;
-    cout << "Rounded = " << x;
+    cout << "Rounded = " << x << endl;
+
+    string zero;
+    cout << "Type EXIT to exit." << endl;
+    cin >> zero;
 
     return 0;
 }
